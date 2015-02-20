@@ -1,0 +1,189 @@
+<!--
+  >> About LetMapJS
+
+  >> PHASE 01 <<
+
+  1. Access current visitor location
+  2. Search nearby place
+  3. Using text search for nearest place
+  4. Find friend social history from social network, such as facebook, twitter, g+, foodspot, spotsetter, and foursquare.
+  5. Search by drawing radius
+  6. Find out distant between your current location and what you are going.
+  7. Remember visitor search History
+  8. Share your experience with in social network sites
+  9. pin with awesome picture like citymaps.com
+  10. visitor can review places they have visited.
+  11. when click on pin,
+      - show image popup with panorama picture or
+        google business photos if possible.
+      - image slideshow
+      - goto listing detail
+      - show basic info
+  12. analyse big data from social api
+  13. optimize for mobile
+  14. optimize for performance
+  15. marker clustering
+
+  >> PHASE 02 <<
+  1. site with
+  2. show in listview, gridview, mapview
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Result Page</title>
+
+  <!-- basic SEO -->
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1'        http-equiv='X-UA-Compatible'>
+  <meta content='[ DESCRIPTION ]'         name='description'>
+  <meta content='[ KEYWORDS ]'            name='keywords'>
+  <meta content='index, follow'           name='robots'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- OG -->
+  <meta content='[ TITLE ]'               property='og:title'>
+  <meta content='[ DESCRIPTION ]'         property='og:description'>
+  <meta content='website'                 property='og:type'>
+  <meta content='[ SOCIAL IMAGE ]'        property='og:image'>
+  <meta content='http://[ SOCIAL URL ]/'  property='og:url'>
+
+  <!-- Twitter -->
+  <meta content='http://[ SOCIAL URL ]/'  name='twitter:url'>
+  <meta content='[ TITLE ]'               name='twitter:title'>
+  <meta content='[ DESCRIPTION ]'         name='twitter:description'>
+  <meta content='[ SOCIAL IMAGE ]'        name='twitter:image'>
+
+  <!-- Itemscope -->
+  <meta content='[ NAME ]'                itemscope='name'>
+  <meta content='[ DESCRIPTION ]'         itemscope='description'>
+  <meta content='[ SOCIAL IMAGE ]'        itemscope='image'>
+
+  <%= csrf_meta_tags %>
+
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '[ GOOGLE KEY ]']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+
+</head>
+<body data-class-name="<%= js_class_name %>">
+
+<div class="container-fluid height-100">
+  <div class="row" style="display: none">
+    <header>
+      <div class="navbar navbar-custom">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#">
+            <img data-src="holder.js/50x50/vine" alt="50x50">
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav main-nav pull-right" role="navigation">
+            <li role="presentation"><%= link_to "home", "#", class: "nav-link" %></li>
+            <li role="presentation"><%= link_to "examples", "#", class: "nav-link" %></li>
+            <li role="presentation"><%= link_to "doc", "#", class: "nav-link" %></li>
+            <li role="presentation"><%= link_to "support", "#", class: "nav-link" %></li>
+            <li role="presentation"><%= link_to "contact us", "#", class: "nav-link" %></li>
+            <li role="presentation"><%= link_to "login", "#", class: "login-link btn btn-default btn-sm" %></li>
+            <li role="presentation"><%= link_to "sign up", "#", class: "signup-link btn btn-danger btn-sm" %></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="row height-100">
+    <%= yield %>
+  </div>
+</div>
+
+<script type="text/javascript" src="http://leafletjs.com/examples/us-states.js"></script>
+<script>
+var popup = L.popup();
+
+function onMapClick(e) {
+    popup
+        .setLatLng(e.latlng)
+        .setContent("You clicked the map at " + e.latlng.toString())
+        .openOn(map);
+}
+
+function onLocationFound(e) {
+    var radius = e.accuracy / 2;
+
+    L.marker(e.latlng).addTo(map)
+        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+    L.circle(e.latlng, radius).addTo(map);
+}
+
+function onLocationError(e) {
+    alert(e.message);
+}
+
+var greenIcon = L.icon({
+    iconUrl: '<%= asset_path 'leaf-green.png' %>',
+    shadowUrl: '<%= asset_path 'leaf-shadow.png' %>',
+
+    iconSize:     [38, 95], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+
+  var map = L.map('map', { zoomControl:false }).setView([11.47393, 104.94898], 13);
+  var attribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>';
+
+  L.tileLayer('http://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+      attribution: attribution,
+      id: 'examples.map-i875mjb7',
+      maxZoom: 18
+  }).addTo(map);
+
+  var marker = L.marker([11.47393, 104.94898], {icon: greenIcon}).addTo(map);
+  marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+
+// Popup as Layer (no need object to attach to)
+
+  // var popup = L.popup()
+  //   .setLatLng([51.5, -0.09])
+  //   .setContent("I am a standalone popup.")
+  //   .openOn(map);
+
+// Dealing with event
+  map.on("click", onMapClick)
+  new L.Control.Zoom({ position: 'topright' }).addTo(map);
+
+// Access current location
+  // map.locate({setView: true, maxZoom: 16});
+
+// share current location
+  // map.on('locationfound', onLocationFound);
+// if shared location is failed to load
+  // map.on('locationerror', onLocationError);
+</script>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>
