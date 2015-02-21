@@ -162,8 +162,29 @@ var greenIcon = L.icon({
       maxZoom: 18
   }).addTo(map);
 
-  var marker = L.marker([11.47393, 104.94898], {icon: greenIcon}).addTo(map);
-  marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+  //var marker = L.marker([11.47393, 104.94898], {icon: greenIcon}).addTo(map);
+  // marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+  //marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
+
+  var datas = [
+      ["7C6B07",11.47393,104.94898],
+      ["7C6B38",11.48305, 104.93351],
+      ["7C6CA1",11.48473, 104.9663],
+      ["7C6CA2",11.47077, 104.96595],
+      ["C81D9D",11.51131, 104.95102],
+      ["C82009",11.48322, 104.9996],
+      ["C82081",11.45311, 104.96201],
+      ["C820AB",11.46455, 104.90862],
+      ["C820B6",11.45664, 104.92905]
+    ];
+
+  for (var i = 0; i < datas.length; i++) {
+      marker = new L.marker([datas[i][1],datas[i][2]], { icon: greenIcon })
+        .bindPopup(datas[i][0])
+        .addTo(map);
+    }
+
+
 
 // Popup as Layer (no need object to attach to)
 
