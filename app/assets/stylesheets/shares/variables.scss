@@ -1,4 +1,9 @@
-$sidebar-right-width: 260px;
+$sidebar-right-width: 260px; // 260
 
-$listing-image-width: 0.15384615384615385 * $sidebar-right-width;
-$listing-info-width:  0.75 * $sidebar-right-width;
+$listing-image-width: 0.15384615384615385 * $sidebar-right-width; // 40
+$listing-info-width : 0.75 * $sidebar-right-width; // 195
+
+$home-note-width    : 0.4 * $listing-info-width; // 78
+$home-state-width   : 0.6 * $listing-info-width; // 117
+
+$home-state-items-width: 0.3333333333333333 * $home-state-width;

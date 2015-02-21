@@ -52,12 +52,20 @@
     margin: 0;
     padding: 5px;
     list-style: none;
+    font-size: 11px;
 
     h4 {
+      @include ellipsis;
+
+      display: block;
       font-size: 11px;
       font-weight: bold;
       color: #555;
       margin: 6px 0;
+    }
+
+    li:not(:last-child) {
+      border-bottom: 1px solid #ccc;
     }
   }
 
@@ -70,5 +78,29 @@
   .listing-info {
     width: $listing-info-width;
     display: inline-block;
+  }
+
+  .home-note {
+    width: $home-note-width;
+    float: left;
+    padding-left: 7px;
+  }
+
+  .home-state {
+    width: $home-state-width;
+    float: left;
+
+    .home-beds,
+    .home-baths,
+    .home-sqr {
+      width: $home-state-items-width;
+      float: left;
+      text-align: center;
+      border-left: 1px solid #ccc;
+
+      p:nth-child(2n) {
+        margin-bottom: 0;
+      }
+    }
   }
 }

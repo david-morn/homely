@@ -8406,3 +8406,1104 @@ Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 09:59:48 +0700
 
 
 Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 09:59:48 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:24:08 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3906ms (Views: 3903.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 10:24:12 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 10:24:13 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:25:12 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:25:13 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 10:25:27 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 10:25:27 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:29:22 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 2391ms
+
+ActionView::Template::Error (105%*px isn't a valid CSS value.
+  (in /home/radin/dev/homely/app/assets/stylesheets/application.scss:76)):
+    76: 
+    77:   </script>
+    78: 
+    79:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    80:   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    81: 
+    82:   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  app/assets/stylesheets/home/sidebar.scss:76
+  app/assets/stylesheets/application.scss:13
+  app/views/layouts/application.html.erb:79:in `_app_views_layouts_application_html_erb___503698245_82899300'
+
+
+  Rendered /home/radin/.rvm/gems/ruby-2.1.5/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.0ms)
+  Rendered /home/radin/.rvm/gems/ruby-2.1.5/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /home/radin/.rvm/gems/ruby-2.1.5/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:30:26 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3836ms (Views: 3832.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 10:30:31 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:31 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:31 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:31 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:31 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:31 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 10:30:32 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 10:31:00 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 10:31:00 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:32:51 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4533ms (Views: 4530.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 10:32:56 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 10:32:57 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 10:33:34 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 10:33:34 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:36:02 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3599ms (Views: 3596.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 10:36:06 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:06 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:06 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:06 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:06 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:06 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 10:36:07 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 10:36:23 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 10:36:23 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:38:12 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3889ms (Views: 3886.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:17 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:18 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:18 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:18 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 10:38:31 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 10:38:31 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:38:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3822ms (Views: 3819.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 10:38:44 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 10:38:55 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 10:38:55 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:50:52 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4022ms (Views: 4020.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 10:50:57 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 10:51:08 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 10:51:08 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 10:53:09 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4446ms (Views: 4441.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 10:53:14 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:14 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:14 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:14 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:14 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:14 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 10:53:15 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 10:55:30 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 10:55:30 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:18:54 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:20:32 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 5419ms (Views: 5347.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:39 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:40 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:40 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:40 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:40 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:40 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:40 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:20:40 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:21:20 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3652ms (Views: 3649.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:21:24 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:24 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:24 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:24 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:24 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:24 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:24 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:24 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:25 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:25 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:25 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:25 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:25 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:25 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:25 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:21:25 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:22:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 298ms (Views: 295.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:22:07 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:22:08 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:22:19 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:22:19 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:29:02 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3854ms (Views: 3851.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:29:06 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:06 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:06 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:06 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:06 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:06 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:07 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:29:17 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:29:17 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:29:27 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 275ms (Views: 271.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:29:28 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:29:29 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:29:29 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:34:59 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3780ms (Views: 3777.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:35:03 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:03 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:03 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:03 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:03 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:03 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:03 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:35:04 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:35:11 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:35:11 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:36:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3807ms (Views: 3804.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:43 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:44 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:44 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:44 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:44 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:44 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:36:44 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:36:46 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:36:46 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:37:59 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 293ms (Views: 289.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:00 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:01 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:01 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:01 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:01 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:38:01 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:38:04 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:38:04 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:39:25 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 293ms (Views: 290.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:25 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:25 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:25 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:25 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:39:25 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:25 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:25 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:39:26 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:39:29 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:39:29 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:43:51 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3704ms (Views: 3702.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:43:56 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:45:37 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:45:37 +0700
