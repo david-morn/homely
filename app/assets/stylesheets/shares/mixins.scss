@@ -3,12 +3,3 @@
     -ms-transform: translatex($value); /* IE 9 */
   -webkit-transform: translatex($value); /* Chrome, Safari, Opera */
 }
-
-@mixin ellipsis($width: 100%) {
-  display: inline-block;
-  max-width: $width;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal;
-}

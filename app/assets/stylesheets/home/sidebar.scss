@@ -1,0 +1,74 @@
+[data-class-name= "Views.Home.IndexView"] {
+  .sidebar-right {
+    position: absolute;
+    width: $sidebar-right-width;
+    max-height: 620px;
+    @media screen and (max-width: 768px) {
+      max-height: 496px;
+    }
+    top: 5px;
+    left: 5px;
+    z-index: 5;
+    background-color: #E7EBED;
+    border-radius: 3px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    box-shadow: 0px 0px 14px -1px #666;
+
+    transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+  }
+
+  .sidebar-close-btn {
+    position: absolute;
+    min-width: 26px;
+    height: 31px;
+    text-decoration: none;
+    left: 265px;
+    z-index: 5;
+    background: #E7EBED;
+    padding: 4px 8px;
+    top: 10px;
+    border-radius: 0 3px 3px 0;
+    color: white;
+
+    box-shadow: 4px 0px 6px -2px #919191;
+
+    &:hover {
+      left: 260px;
+    }
+  }
+
+  .hide-sidebar,
+  .hide-sidebar-close-btn {
+    @include translate-x(-265px);
+  }
+
+  #sidebar-list {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+
+    h4 {
+      font-size: 11px;
+      font-weight: bold;
+      color: #555;
+      margin: 6px 0;
+    }
+  }
+
+  .listing-image {
+    width: $listing-image-width;
+    display: inline-block;
+    float: left;
+  }
+
+  .listing-info {
+    width: $listing-info-width;
+    display: inline-block;
+  }
+}

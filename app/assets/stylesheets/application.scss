@@ -1,9 +1,13 @@
+// libs
+@import "bourbon";
 @import 'shares/mixins';
 @import 'font-awesome/font-awesome.min';
 @import 'bootstrap/bootstrap.min';
 @import 'libs/flexslider';
 
+// pages
 @import 'shares/variables';
 @import 'shares/base';
 @import 'shares/header';
 @import 'home/index';
+@import 'home/sidebar';
