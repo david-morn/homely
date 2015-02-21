@@ -9507,3 +9507,123 @@ Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:45:37 +0700
 
 
 Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:45:37 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:54:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 291ms (Views: 288.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:54:44 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:54:51 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:54:51 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:56:10 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 312ms (Views: 309.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/libs/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/libs/jquery.nicescroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/widgets/flexslider.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/widgets/sidebar.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/widgets/nice_scroll.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:11 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:12 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:12 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:56:12 +0700
+
+
+Started GET "/assets/leaf-shadow.png" for 127.0.0.1 at 2015-02-21 14:56:14 +0700
+
+
+Started GET "/assets/leaf-green.png" for 127.0.0.1 at 2015-02-21 14:56:14 +0700
