@@ -6,10 +6,10 @@
       feat(sidebar): change behavior menu list items
 
       when mouse over on list, marker popup appear
-
     -
       docs(CHANGELOG.md): add changelog file
-
+    -
+      style(sidebar): improve hover action on menu items
 
 
 Commit Message Format

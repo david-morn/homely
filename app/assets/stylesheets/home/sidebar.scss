@@ -50,7 +50,7 @@
 
   #sidebar-list {
     margin: 0;
-    padding: 5px;
+    padding: 0;
     list-style: none;
     font-size: 11px;
 
@@ -64,8 +64,15 @@
       margin: 6px 0;
     }
 
-    li:not(:last-child) {
-      border-bottom: 1px solid #ccc;
+    li {
+      padding: 5px;
+      &:hover {
+        background-color: white;
+        cursor: pointer;
+      }
+      &:not(:last-child) {
+        border-bottom: 1px solid #ccc;
+      }
     }
   }
 
