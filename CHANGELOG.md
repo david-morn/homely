@@ -10,7 +10,10 @@
       docs(CHANGELOG.md): add changelog file
     -
       style(sidebar): improve hover action on menu items
+    -
+      feat(marker): set selected marker on top (disabled options)
 
+      https://github.com/Leaflet/Leaflet/issues/449
 
 Commit Message Format
 ---

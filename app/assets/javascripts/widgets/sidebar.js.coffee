@@ -17,6 +17,16 @@ class ProjectZero.Widgets.Sidebar
       $(this).attr 'data-mapid', markers[n].mid
 
   @onHover: ->
-    $('#sidebar-list li')
-      .on "mouseover", (e) ->
-        markers[$(@).attr("data-mapid")].mObj.openPopup()
+    $('#sidebar-list li').on "mouseover", (e) ->
+      ## Marker on Top
+
+      # _markers = map.getPanes().markerPane.childNodes
+      # this_marker = markers[$(@).attr("data-mapid")].mObj
+      # j = 0
+
+      # while j < _markers.length
+      #   _markers[j].style.zIndex = _markers[j]._leaflet_pos.y
+      #   j++
+      # this_marker._icon.style.zIndex = this_marker._icon._leaflet_pos.y + 30
+      # this_marker.openPopup()
+      markers[$(@).attr("data-mapid")].mObj.openPopup()

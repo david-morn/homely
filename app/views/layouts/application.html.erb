@@ -182,7 +182,8 @@ var greenIcon = L.icon({
   var markers = [];
 
   var datas = [
-      ["7C6B07",11.47393, 104.94898],
+      ["*7C6B07",11.47393, 104.94898],
+      ["7C6B07",11.47229, 104.94844],
       ["7C6B38",11.48305, 104.93351],
       ["7C6CA1",11.48473, 104.9663],
       ["7C6CA2",11.47077, 104.96595],
@@ -193,7 +194,7 @@ var greenIcon = L.icon({
     ];
 
   for (var i = 0; i < datas.length; i++) {
-      var marker = new L.marker([datas[i][1],datas[i][2]], { icon: greenIcon })
+      var marker = new L.marker([datas[i][1],datas[i][2]], { icon: greenIcon, riseOnHover: true })
         .bindPopup(datas[i][0])
         .addTo(map);
 
@@ -213,7 +214,7 @@ var greenIcon = L.icon({
   //   .openOn(map);
 
 // Dealing with event
-  map.on("click", onMapClick)
+  // map.on("click", onMapClick)
   new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
 // Access current location
