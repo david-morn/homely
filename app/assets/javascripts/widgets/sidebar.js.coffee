@@ -5,6 +5,7 @@ class ProjectZero.Widgets.Sidebar
       thiz.enable()
       thiz.initMapID()
       thiz.onHover()
+      thiz.onClick()
 
   @enable: ->
     $('.sidebar-close-btn').on "click", (e) ->
@@ -30,3 +31,11 @@ class ProjectZero.Widgets.Sidebar
       # this_marker._icon.style.zIndex = this_marker._icon._leaflet_pos.y + 30
       # this_marker.openPopup()
       markers[$(@).attr("data-mapid")].mObj.openPopup()
+
+  @onClick: ->
+    $('#sidebar-list li').on "click", (e) ->
+      item = markers[$(@).attr("data-mapid")].mid
+      ele = "<div class='selected'>#{ item }</div>"
+
+      $('.selected').remove()
+      $('.map-wrapper').append(ele)
