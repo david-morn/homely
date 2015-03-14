@@ -35,7 +35,7 @@ class ProjectZero.Widgets.Sidebar
   @onClick: ->
     $('#sidebar-list li').on "click", (e) ->
       item = markers[$(@).attr("data-mapid")].mid
-      ele = "<div class='selected'>#{ item }</div>"
+      ele = "<div class='selected animated bounceInRight'>#{ item }</div>"
 
       $('.selected').remove()
       $('.map-wrapper').append(ele)
