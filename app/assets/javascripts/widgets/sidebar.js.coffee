@@ -1,11 +1,14 @@
 class ProjectZero.Widgets.Sidebar
   thiz = this
+  clsBoundAnim = "animated bounceInRight bounceOutRight"
+
   @init: ->
     $().ready ->
       thiz.enable()
       thiz.initMapID()
       thiz.onHover()
       thiz.onClick()
+      thiz.selectedBarClick()
 
   @enable: ->
     $('.sidebar-close-btn').on "click", (e) ->
@@ -34,8 +37,10 @@ class ProjectZero.Widgets.Sidebar
 
   @onClick: ->
     $('#sidebar-list li').on "click", (e) ->
-      item = markers[$(@).attr("data-mapid")].mid
-      ele = "<div class='selected animated bounceInRight'>#{ item }</div>"
+      $('.selected').css('right', '5px').removeClass(clsBoundAnim).addClass("animated bounceInRight")
+      $('.leaflet-right').css('right', '260px').removeClass(clsBoundAnim).addClass("animated bounceInRight")
 
-      $('.selected').remove()
-      $('.map-wrapper').append(ele)
+  @selectedBarClick: ->
+    $('.selected').on "click", (e) ->
+      $(@).removeClass(clsBoundAnim).addClass("animated bounceOutRight")
+      $('.leaflet-right').css('right', '0').removeClass(clsBoundAnim)#.addClass('animated bounceOutRight')

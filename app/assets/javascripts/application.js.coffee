@@ -10,6 +10,7 @@
 
 #= require widgets/flexslider
 #= require widgets/sidebar
+#= require widgets/selected_bar
 #= require widgets/nice_scroll
 
 #= require_tree ./views
