@@ -1,3 +1,14 @@
+### 14/03/2015
+  + 15:22
+    -
+      refactor(sidebar list): loop sidebar list
+
+      remove manually written item by using ruby .times()
+    -
+      feat(sidebar list): click to create new item
+
+      when user click on each list item, popup its relate popup content
+
 ### 22/02/2015
   + 12:58
     -
