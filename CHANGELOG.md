@@ -9,6 +9,9 @@
 
       when user click on each list item, popup its relate popup content
 
+    -
+      feat(selected box): apply animate.css
+
 ### 22/02/2015
   + 12:58
     -
