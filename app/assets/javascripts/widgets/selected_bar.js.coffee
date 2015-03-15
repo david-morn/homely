@@ -1,9 +1,11 @@
 class ProjectZero.Widgets.SelectedBar
   thiz = this
-  @init: ->
-    thiz.Click()
+  clsBoundAnim = "animated bounceInRight bounceOutRight"
 
-  @Click: ->
+  @init: ->
+    thiz.onClick()
+
+  @onClick: ->
     $('.selected').on "click", (e) ->
-      $(@).remove()
-      $('.leaflet-right').addClass('animated bounceOutRight')
+      $(@).removeClass(clsBoundAnim).addClass("animated bounceOutRight")
+      $('.leaflet-right').css('right', '0').removeClass(clsBoundAnim)

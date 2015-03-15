@@ -13,6 +13,8 @@
       feat(selected box): apply animate.css
     -
       refactor(selected box): update behavior
+    -
+      refactor(selected box): extract and organize CSS and JS file
 
 ### 22/02/2015
   + 12:58

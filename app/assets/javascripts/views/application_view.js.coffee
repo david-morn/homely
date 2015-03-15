@@ -3,5 +3,5 @@ class ProjectZero.Views.ApplicationView
     # ProjectZero.Widgets.NiceScroll.enable()
 
     ProjectZero.Widgets.Sidebar.init()
-    # ProjectZero.Widgets.SelectedBar.init()
+    ProjectZero.Widgets.SelectedBar.init()
   cleanup: ->

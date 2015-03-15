@@ -5,6 +5,7 @@
 @import 'bootstrap/bootstrap.min';
 @import 'libs/flexslider';
 @import 'libs/animate';
+@import 'libs/custom-animate';
 
 // pages
 @import 'shares/variables';
@@ -12,3 +13,4 @@
 @import 'shares/header';
 @import 'home/index';
 @import 'home/sidebar';
+@import 'home/selected';
