@@ -23,6 +23,8 @@
       refactor(selected box): move partial selected box
     -
       fix(selected box): inconsistent background color
+    -
+      style(tab): improve tab UI
 
 ### 22/02/2015
   + 12:58
