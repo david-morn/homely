@@ -21,6 +21,8 @@
       feat(selectex box): add tab
     -
       refactor(selected box): move partial selected box
+    -
+      fix(selected box): inconsistent background color
 
 ### 22/02/2015
   + 12:58
