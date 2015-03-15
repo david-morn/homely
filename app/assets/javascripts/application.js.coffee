@@ -12,6 +12,7 @@
 #= require widgets/sidebar
 #= require widgets/selected_bar
 #= require widgets/nice_scroll
+#= require widgets/tab
 
 #= require_tree ./views
 #= require libs/page_load

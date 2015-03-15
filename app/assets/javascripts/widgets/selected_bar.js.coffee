@@ -6,6 +6,7 @@ class ProjectZero.Widgets.SelectedBar
     thiz.onClick()
 
   @onClick: ->
-    $('.selected').on "click", (e) ->
-      $(@).removeClass(clsBoundAnim).addClass("animated bounceOutRight")
+    $('.selected > .close').on "click", (e) ->
+      e.preventDefault()
+      $(@).parent().removeClass(clsBoundAnim).addClass("animated bounceOutRight")
       $('.leaflet-right').css('right', '0').removeClass(clsBoundAnim)

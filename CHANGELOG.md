@@ -15,6 +15,12 @@
       refactor(selected box): update behavior
     -
       refactor(selected box): extract and organize CSS and JS file
+    -
+      chore(selected box): add button close for selected box
+    -
+      feat(selectex box): add tab
+    -
+      refactor(selected box): move partial selected box
 
 ### 22/02/2015
   + 12:58

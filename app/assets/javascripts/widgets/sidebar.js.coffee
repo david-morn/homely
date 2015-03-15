@@ -37,5 +37,5 @@ class ProjectZero.Widgets.Sidebar
   @onClick: ->
     $('#sidebar-list li').on "click", (e) ->
       $('.selected').css('right', '5px').removeClass(clsBoundAnim).addClass("animated bounceInRight")
-      $('.selected').text(markers[$(@).attr("data-mapid")].mid)
+      # $('.selected').text(markers[$(@).attr("data-mapid")].mid)
       $('.leaflet-right').css('right', '300px').removeClass(clsBoundAnim).addClass("animated bounceInRight")
