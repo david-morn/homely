@@ -11,6 +11,8 @@
 
     -
       feat(selected box): apply animate.css
+    -
+      refactor(selected box): update behavior
 
 ### 22/02/2015
   + 12:58
