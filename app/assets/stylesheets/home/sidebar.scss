@@ -9,7 +9,7 @@
     top: 10px;
     left: 5px;
     z-index: 5;
-    background-color: #E7EBED;
+    background-color: $background-color;
     border-radius: 3px;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -30,7 +30,7 @@
     text-decoration: none;
     left: 265px;
     z-index: 5;
-    background: #E7EBED;
+    background: $background-color;
     padding: 4px 8px;
     top: 15px;
     border-radius: 0 3px 3px 0;
