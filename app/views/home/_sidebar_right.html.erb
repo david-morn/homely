@@ -1,0 +1,37 @@
+<a href="#" class="sidebar-close-btn">
+  <span>&laquo;</span>
+</a>
+<div class="sidebar-right">
+  <ul id="sidebar-list">
+    <% styles = ['vine', 'social', 'industrial', 'lava'] %>
+    <% 9.times do %>
+      <li>
+        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+        <div class="listing-image">
+          <img data-src="holder.js/40x40/<%= styles.sample %>">
+        </div>
+        <div class="listing-info">
+          <div class="home-note">
+            <span class="type">Villa</span>
+            <p class="price">$1,450,000</p>
+          </div>
+          <div class="home-state">
+            <div class="home-beds">
+              <p>3</p>
+              <p>beds</p>
+            </div>
+            <div class="home-baths">
+              <p>2</p>
+              <p>baths</p>
+            </div>
+            <div class="home-sqr">
+              <p>1,478</p>
+              <p>Sq. m</p>
+            </div>
+          </div>
+        </div>
+        <p class="listing-by">Listed by VTrust Real Estate.</p>
+      </li>
+    <% end %>
+  </ul>
+</div>
