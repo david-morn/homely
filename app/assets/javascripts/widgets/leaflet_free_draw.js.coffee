@@ -1,5 +1,6 @@
 class ProjectZero.Widgets.LeafletFreeDraw
   @enable: ->
-    freeDraw = new (L.FreeDraw)(mode: L.FreeDraw.MODES.ALL)
+    freeDraw = window.freeDraw = new (L.FreeDraw)(mode: L.FreeDraw.MODES.ALL)
+    # freeDraw.options.exitModeAfterCreate(false)
 
     map.addLayer freeDraw
