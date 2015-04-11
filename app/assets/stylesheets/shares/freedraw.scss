@@ -4,7 +4,7 @@
     pointer-events: all;
 }*/
 
-.polygon-elbow {
+.mode-edit .polygon-elbow {
   opacity: 1;
   pointer-events: all;
   -webkit-transition: opacity .25s;
@@ -16,6 +16,10 @@
   box-sizing: border-box;
   width: 0 !important;
   height: 0 !important;
+}
+
+.mode-create svg {
+  cursor: crosshair;
 }
 
 .freedraw-control {
