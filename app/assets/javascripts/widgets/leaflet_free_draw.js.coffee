@@ -28,4 +28,7 @@ class ProjectZero.Widgets.LeafletFreeDraw
     # freeDraw.options.setBoundariesAfterEdit(true): allow to fetch markers when edit mode has been exited.
     # freeDraw.allowPolygonMerging(true): attempt to join up any polygons that intersect.
 
+    ## Unsolved :
+      # 1. undraggable elbow
+
     map.addLayer freeDraw
