@@ -22,3 +22,7 @@
 * [Leaflet.awesome-markers](https://github.com/lvoogdt/Leaflet.awesome-markers): use font awesome, and bootstrap icons
 * [leaflet-dvf](http://humangeo.github.io/leaflet-dvf/): data visualization framework, marker as chart, useful info on map
 * [Leaflet.Zoomify](https://github.com/turban/Leaflet.Zoomify): A TileLayer for Zoomify images.
+* [Leaflet.TileLayer.PouchDBCached](https://github.com/MazeMap/Leaflet.TileLayer.PouchDBCached): A Leaflet tile layer which caches into PouchDB for offline use
+* [OfflineMap](https://github.com/tbicr/OfflineMap)
+* ![leaflet-usermarker](https://github.com/heyman/leaflet-usermarker):  iOS style marker, Turn on/off a "pulsing" effect that can be used to represent high accuracy, or if a user is online, example: [http://longitude.me/](http://longitude.me/)
+* [Leaflet.FeatureSelect](https://github.com/openplans/Leaflet.FeatureSelect): placing a marker in the center of the map and using that to select any geometry type
