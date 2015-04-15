@@ -19,3 +19,6 @@
 * [leaflet.bouncemarker](https://github.com/maximeh/leaflet.bouncemarker): bounce animation when adding a marker
 * [Leaflet.SmoothMarkerBouncing](https://github.com/hosuaby/Leaflet.SmoothMarkerBouncing)
 * [Leaflet.TextPath](https://github.com/makinacorpus/Leaflet.TextPath): Show text along Polyline with Leaflet
+* [Leaflet.awesome-markers](https://github.com/lvoogdt/Leaflet.awesome-markers): use font awesome, and bootstrap icons
+* [leaflet-dvf](http://humangeo.github.io/leaflet-dvf/): data visualization framework, marker as chart, useful info on map
+* [Leaflet.Zoomify](https://github.com/turban/Leaflet.Zoomify): A TileLayer for Zoomify images.
