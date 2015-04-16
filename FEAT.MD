@@ -26,3 +26,22 @@
 * [OfflineMap](https://github.com/tbicr/OfflineMap)
 * ![leaflet-usermarker](https://github.com/heyman/leaflet-usermarker):  iOS style marker, Turn on/off a "pulsing" effect that can be used to represent high accuracy, or if a user is online, example: [http://longitude.me/](http://longitude.me/)
 * [Leaflet.FeatureSelect](https://github.com/openplans/Leaflet.FeatureSelect): placing a marker in the center of the map and using that to select any geometry type
+* [Leaflet.MakiMarkers](https://github.com/jseppi/Leaflet.MakiMarkers)
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+* Noted so important
+  * Leaflet.Editable.Polyline
+  * leaflet-omnivore : universal format parser
+  * Leaflet.TileLayer.IIP : add [IIP](http://iipimage.sourceforge.net/), advanced high-performance feature-rich image server system for web-based streamed viewing and zooming of ultra high-resolution images
