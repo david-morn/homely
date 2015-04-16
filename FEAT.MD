@@ -27,10 +27,10 @@
 * ![leaflet-usermarker](https://github.com/heyman/leaflet-usermarker):  iOS style marker, Turn on/off a "pulsing" effect that can be used to represent high accuracy, or if a user is online, example: [http://longitude.me/](http://longitude.me/)
 * [Leaflet.FeatureSelect](https://github.com/openplans/Leaflet.FeatureSelect): placing a marker in the center of the map and using that to select any geometry type
 * [Leaflet.MakiMarkers](https://github.com/jseppi/Leaflet.MakiMarkers)
-* []()
-* []()
-* []()
-* []()
+* [PruneCluster](https://github.com/SINTEF-9012/PruneCluster): Fast and realtime marker clustering
+* [Leaflet.vector-markers](https://github.com/hiasinho/Leaflet.vector-markers): SVG markers with Font Awesome/Twitter Bootstrap/Maki icons.
+* [leaflet-realtime](https://github.com/perliedman/leaflet-realtime): realtime data on a Leaflet map: live tracking GPS units, sensor data or just about anything
+* [leaflet-transitionedicon](https://github.com/naturalatlas/leaflet-transitionedicon): markers with CSS3 transitions
 * []()
 * []()
 * []()
@@ -45,3 +45,6 @@
   * Leaflet.Editable.Polyline
   * leaflet-omnivore : universal format parser
   * Leaflet.TileLayer.IIP : add [IIP](http://iipimage.sourceforge.net/), advanced high-performance feature-rich image server system for web-based streamed viewing and zooming of ultra high-resolution images
+  * cbaines/leaflet-indoor: basic tools to create indoor maps
+  * henrythasler/Leaflet.Geodesic:  calculate the exact distance between two given points.
+  * ewoken/Leaflet.MovingMarker
