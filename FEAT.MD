@@ -48,3 +48,4 @@
   * cbaines/leaflet-indoor: basic tools to create indoor maps
   * henrythasler/Leaflet.Geodesic:  calculate the exact distance between two given points.
   * ewoken/Leaflet.MovingMarker
+  * manleyjster/Leaflet.Illustrate: drawing(measure distance), text...
