@@ -7,6 +7,12 @@
 * Performance & Optimization
 * Refactor and Clean code
 * Cross Platform
+* Extend new features
+
+
+
+
+
 
 * [Marker Clustering](https://github.com/Leaflet/Leaflet.markercluster)
 * [Label](https://github.com/Leaflet/Leaflet.label)
@@ -31,15 +37,7 @@
 * [Leaflet.vector-markers](https://github.com/hiasinho/Leaflet.vector-markers): SVG markers with Font Awesome/Twitter Bootstrap/Maki icons.
 * [leaflet-realtime](https://github.com/perliedman/leaflet-realtime): realtime data on a Leaflet map: live tracking GPS units, sensor data or just about anything
 * [leaflet-transitionedicon](https://github.com/naturalatlas/leaflet-transitionedicon): markers with CSS3 transitions
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+
 
 * Noted so important
   * Leaflet.Editable.Polyline
@@ -49,3 +47,73 @@
   * henrythasler/Leaflet.Geodesic:  calculate the exact distance between two given points.
   * ewoken/Leaflet.MovingMarker
   * manleyjster/Leaflet.Illustrate: drawing(measure distance), text...
+
+
+Leaflet Services
+
+* [leaflet-ajax](https://github.com/calvinmetcalf/leaflet-ajax): Allows you to call JSON via an Ajax call with a jsonp fallback
+
+
+Geocoding (Address Lookup)
+
+* https://github.com/fiorix/freegeoip
+
+* [esri geocoding-control](http://esri.github.io/esri-leaflet/examples/geocoding-control.html):
+
+
+Routing and route search
+
+* http://www.liedman.net/leaflet-routing-machine/
+
+
+
+Controls and Interaction
+
+* https://github.com/heyman/leaflet-areaselect/ : letting users select an area of the map using a rectangle
+ same as : https://github.com/kajic/leaflet-locationfilter/
+
+* https://github.com/Leaflet/Leaflet.draw :
+* https://github.com/CliffCloud/Leaflet.EasyButton : add fontawesome controll to map
+* https://github.com/gregallensworth/L.Control.BoxZoom : click box zoom control and drag
+* https://github.com/kartena/Leaflet.zoomslider
+
+** Note
+[Maptiler Generator](http://build-failed.blogspot.com/2012/11/zoomable-image-with-leaflet.html) custom map to support khmer
+
++ google search : design your own OpenStreetMap tiles online
+
+
+* https://github.com/domoritz/leaflet-locatecontrol
+* http://leaflet.github.io/Leaflet.fullscreen/
+
+** http://labs.easyblog.it/maps/leaflet-search/
+
+* https://github.com/naomap/leaflet-fusesearch
+* https://github.com/Norkart/Leaflet-MiniMap
+* http://erictheise.github.io/rrose/ : popups to respond to the mouseover
+* https://github.com/makinacorpus/Leaflet.Spin
+
+checkout root repo
+
+https://github.com/makinacorpus/Leaflet.FileLayer : load file
+Leaflet.RevealOSM : http://fluv.io/
+https://github.com/ardhi/Leaflet.MousePosition
+
++ Group by categories
+https://github.com/ismyrnow/Leaflet.groupedlayercontrol
+https://github.com/davicustodio/Leaflet.StyledLayerControl
+
+
+https://github.com/yohanboniface/Leaflet.TileLegend : location navigate
+https://github.com/hallahan/LeafletPlayback
+https://github.com/ebrelsford/Leaflet.loading
+
+https://github.com/aratcliffe/Leaflet.contextmenu
+http://makinacorpus.github.io/Leaflet.MeasureControl/
+
+
+https://github.com/Turbo87/leaflet-sidebar/
+https://github.com/Turbo87/sidebar-v2
+
+https://github.com/bbecquet/Leaflet.MagnifyingGlass
+https://github.com/dwilhelm89/Leaflet.StyleEditor
