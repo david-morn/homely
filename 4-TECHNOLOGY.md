@@ -5,3 +5,13 @@
 ***
 
 technology to implement
+
+
+test : rails, javascript
+rails : devise, cancan
+
+
+gemset
+sidekiq
+honeybadger
+semaphoreci
