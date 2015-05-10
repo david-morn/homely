@@ -1,6 +1,12 @@
+***
+
+* MUST BUILD A GREAT PLATEFORM
+
+***
+
 # **Homely Inc.**
 
-#### TODO
+#### TODO ( spotify.com )
 * Usecase and data flow
 * Think of Main features
 * UX/UI

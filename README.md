@@ -1,3 +1,9 @@
+***
+
+* MUST BUILD A GREAT PLATEFORM
+
+***
+
 # ---- WORKING ON DIFF PROJECTS ----
 
 * login to Working Git account
