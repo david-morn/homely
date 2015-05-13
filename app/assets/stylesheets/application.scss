@@ -11,7 +11,5 @@
 @import 'shares/variables';
 @import 'shares/base';
 @import 'shares/header';
-@import 'map/index';
-@import 'map/sidebar';
-@import 'map/selected';
+@import 'views/**/*';
 @import 'shares/freedraw';

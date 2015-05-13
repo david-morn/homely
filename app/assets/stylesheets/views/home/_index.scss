@@ -1,0 +1,30 @@
+.txtsearch {
+  width: 521px;
+  height: 27px;
+  margin-bottom: 64px;
+
+  &:focus {
+    border: 1px solid blue;
+  }
+}
+
+.Aligner {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+
+  align-items: center;
+  -webkit-align-items: center;
+
+  justify-content: center;
+  -webkit-justify-content: center;
+
+  height: 100%;
+
+  .wrapper {
+    text-align: center;
+  }
+  .logo {
+    margin-bottom: 34px;
+  }
+}
