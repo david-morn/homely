@@ -1,4 +1,4 @@
-class ProjectZero.Views.Home.IndexView extends ProjectZero.Views.ApplicationView
+class ProjectZero.Views.Map.IndexView extends ProjectZero.Views.ApplicationView
   render: ->
     super()
     freeDraw.setMode L.FreeDraw.MODES.VIEW
