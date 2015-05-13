@@ -1,7 +1,7 @@
 .txtsearch {
-  width: 521px;
-  height: 27px;
-  margin-bottom: 64px;
+  width: 596px;
+  height: 35px;
+  margin-bottom: 21px;
 
   &:focus {
     border: 1px solid blue;
@@ -27,4 +27,31 @@
   .logo {
     margin-bottom: 34px;
   }
+}
+
+.browse-more {
+  width: 596px;
+  margin: 0 auto;
+}
+
+.browse-list {
+  width: 80%;
+  float: right;
+  list-style-type: circle;
+}
+
+.browse-list li {
+  float: left;
+  margin-right: 37px;
+}
+
+label {
+  color: #555;
+  font-size: 13px;
+  float: left;
+}
+
+.browse-link {
+  font-size: 12px;
+  letter-spacing: 0.5px;
 }
