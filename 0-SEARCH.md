@@ -49,6 +49,8 @@ as I am a BO, once i post in _web_, it auto-contribute to social network ( faceb
 BO, want beautiful profile, can list my product, service, menu, ...
 BO, want a secure platform, best performance(fast)
 
+do you remember my search query?
+
 
 
 ** USECASE
