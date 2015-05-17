@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def map
   end
+
+  def detail
+  end
 end

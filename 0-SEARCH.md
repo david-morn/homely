@@ -63,12 +63,17 @@ Plan -> Implement -> Goal
 
 + Plan ( always stick to goal )
   . business flow ( make people(visitor and business owner) easy to understand and use )
-    . brainstorming visitor and BO requirement
-    . process diagram
-    . usecase
-    . how process of each actors meet?
-    . engage visitor for business
-    . promote business
+    + searchable textbox
+    + list results + map
+    + view profile detail
+
+  . brainstorming visitor and BO requirement
+  . process diagram
+  . usecase
+  . how process of each actors meet?
+  . engage visitor for business
+  . promote business
+
   . Design
     . UX
       . Fast
